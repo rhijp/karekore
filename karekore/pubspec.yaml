@@ -1,0 +1,23 @@
+name: karekore
+description: A Flutter project to create a calendar app with custom event input.
+
+# The following line prevents the package from being accidentally published to pub.dev using `flutter pub publish`.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Additional dependencies (if required later, e.g., Firebase, provider, etc.)
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
